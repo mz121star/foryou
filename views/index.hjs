@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html class="no-js">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Place favicon.ico and apple-touch-icon(s) in the root directory -->
+
+    <link rel="stylesheet" href="css/normalize.css">
+    <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+    <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+</head>
+<body>
+<!--[if lt IE 8]>
+<p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+<![endif]-->
+
+<!-- Add your site or application content here -->
+
+
+<div class="box box-color box-bordered">
+    <div class="box-title">
+        <h3>
+            <i class="red fa fa-heart"></i>
+           We are together
+        </h3>
+    </div>
+    <div class="box-content nopadding">
+        <ul class="timeline">
+            <li class="step1">
+                <div class="timeline-content">
+                    <div class="left">
+                        <div class="icon lightred">
+                            <i class="fa fa-camera-retro"></i>
+                        </div>
+                        <div class="date">9月20</div>
+                    </div>
+                    <div class="activity">
+                        <div class="user"><a href="#"> <i class="red fa fa-heart"></i></a> <span>第一次见面</span></div>
+                        <p> <i class="fa fa-music"></i><i class="deeppink">终于等到你</i>
+                            <audio controls="controls" autoplay="autoplay">
+                                <source src="song.ogg" type="audio/ogg" />
+                                <source src="zyddn.mp3" type="audio/mpeg" />
+                                Your browser does not support the audio element.
+                            </audio>
+                        </p>
+                    </div>
+                </div>
+                <div class="line"></div>
+            </li>
+            <li class="step2">
+                <div class="timeline-content">
+                    <div class="left">
+                        <div class="icon orange">
+                            <i class="fa fa-bullhorn"></i>
+                        </div>
+                        <div class="date">9月20</div>
+                    </div>
+                    <div class="activity">
+                        <div class="user"><a href="#">小阳阳&miao</a> <span><i style="font-size: 20" class="fa fa-male"></i><i style="font-size: 16"  class="fa fa-female"></i>我们在一起了</span></div>
+                        <p>
+                             <img src="img/7.jpg" width="70" />    我们在一起的日子........................
+                        </p>
+
+                    </div>
+                </div>
+                <div class="line"></div>
+            </li>
+            <li class="step3">
+                <div class="timeline-content">
+                    <div class="left">
+                        <div class="icon">
+                            <i class="fa fa-picture-o"></i>
+                        </div>
+                        <div class="date">8月24</div>
+                    </div>
+                    <div class="activity">
+                        <div class="user"><a href="#">喵~</a> <span>一起看日出</span></div>
+                        <ul class="timeline-images">
+                            <li>
+                                <a href="#"><img src="img/love.jpg" alt=""></a>
+                            </li>
+                            <li>
+                                <a href="#"><img src="img/2.jpg" alt=""></a>
+                            </li>
+                            <li>
+                                <a href="#"><img src="img/3.jpg" alt=""></a>
+                            </li>
+                            <li>
+                                <a href="#"><img src="img/4.jpg" alt=""></a>
+                            </li>
+                            <li>
+                                <a href="#"><img src="img/5.jpg" alt=""></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="line"></div>
+            </li>
+            <li class="step4">
+                <div class="timeline-content">
+                    <div class="left">
+                        <div class="icon green">
+                            <i class="fa fa-comment"></i>
+                        </div>
+                        <div class="date">9月18日</div>
+                    </div>
+                    <div class="activity">
+                        <div class="user"><a href="#">小阳阳</a> <span>耍彪的日子</span></div>
+                        <p>
+                             耍彪的日子
+                        </p>
+                    </div>
+                </div>
+                <div class="line"></div>
+            </li>
+
+
+        </ul>
+    </div>
+</div>
+
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
+<script src="js/plugins.js"></script>
+<script src="js/main.js"></script>
+
+<!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+<script>
+    (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+        e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+        e.src='//www.google-analytics.com/analytics.js';
+        r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+    ga('create','UA-XXXXX-X');ga('send','pageview');
+</script>
+</body>
+</html>
