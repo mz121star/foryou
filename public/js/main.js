@@ -35,7 +35,7 @@
             var data ={}
             data.result=d
             console.log(template(data))
-            $("#timelineContent").html(template(data))
+           /* $("#timelineContent").html(template(data))*/
 
             fadein()
         })
