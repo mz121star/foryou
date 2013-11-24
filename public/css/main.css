@@ -15256,11 +15256,13 @@ ul>li.grey-4, .label-grey-4 {
 .step4{background-color: #0FC211;color:rgb(255, 244, 244) !important}
 .timeline>li .timeline-content .left .date {background: #CF6060;}
 */
-.timeline li{display:none}
+/*.timeline li{display:none}*/
+/*
 * { -moz-transition: all 2s ease-in;
     -webkit-transition: all 2s ease-in;
     -o-transition: all 2s ease-in;
     transition: all 2s ease-in;}
+*/
 
 
 

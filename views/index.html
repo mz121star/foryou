@@ -36,7 +36,7 @@
     </div>
     <div class="box-content nopadding">
         <ul class="timeline" id="timelineContent">
-            <li class="step1">
+            <li class="step step1">
                 <div class="timeline-content">
                     <div class="left">
                         <div class="icon lightred">
@@ -57,7 +57,7 @@
                 </div>
                 <div class="line"></div>
             </li>
-            <li class="step2">
+            <li class="step step2">
                 <div class="timeline-content">
                     <div class="left">
                         <div class="icon orange">
@@ -75,7 +75,7 @@
                 </div>
                 <div class="line"></div>
             </li>
-            <li class="step3">
+            <li class="step step3">
                 <div class="timeline-content">
                     <div class="left">
                         <div class="icon">
@@ -84,7 +84,7 @@
                         <div class="date">8月24</div>
                     </div>
                     <div class="activity">
-                        <div class="user"><a href="#">喵~</a> <span>一起看日出</span></div>
+                        <div class="user"><a href="#">喵~</a> <span>一起看电影</span></div>
                         <ul class="timeline-images">
                             <li>
                                 <a href="#"><img src="img/love.jpg" alt=""></a>
@@ -106,18 +106,18 @@
                 </div>
                 <div class="line"></div>
             </li>
-            <li class="step4">
+            <li class="step step4">
                 <div class="timeline-content">
                     <div class="left">
                         <div class="icon green">
                             <i class="fa fa-comment"></i>
                         </div>
-                        <div class="date">9月18日</div>
+                        <div class="date">11月9日</div>
                     </div>
                     <div class="activity">
-                        <div class="user"><a href="#">小阳阳</a> <span>耍彪的日子</span></div>
+                        <div class="user"><a href="#">小阳阳</a> <span>在水库边听歌</span></div>
                         <p>
-                             耍彪的日子
+                            在水库边听歌
                         </p>
                     </div>
                 </div>
@@ -137,7 +137,39 @@
                 <h4 class="modal-title" id="myModalLabel">新的足迹</h4>
             </div>
             <div class="modal-body">
-                <div><textarea id="wysiwyg" rows="5" cols="65"> </textarea></div>
+
+
+
+                <form class="form-horizontal" role="form">
+                    <div class="form-group">
+                        <label for="title" class="col-sm-2 control-label">标题</label>
+                        <div class="col-sm-10">
+                            <input type="text" class="form-control" id="title" placeholder="标题">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="place" class="col-sm-2 control-label">地点</label>
+                        <div class="col-sm-10 col-md-10">
+                            <input type="text" class="form-control" id="place" placeholder="地点">
+
+                        </div>
+                        <div class="col-md-2 col-sm-2">
+                            <button type="button" class="btn btn-success form-control" id="mark" value="map"><i class="fa fa-map-marker"></i> 标记</button>
+
+                        </div>
+                        <div class="  col-md-12" id="allmap" style=" height: 200px; padding: 10px;display: none"></div>
+                    </div>
+
+                </form>
+
+
+                <div>
+                    <label><input type="radio" name="contenttype" value="video" />视频</label>
+                    <label><input type="radio" name="contenttype" value="audio" />音频</label>
+                    <label><input type="radio" name="contenttype" value="picture" />图片</label>
+                    <label><input type="radio" name="contenttype" value="text" />文字</label>
+                </div>
+                <div><textarea id="wysiwyg" rows="5" cols="65" > </textarea></div>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
@@ -154,6 +186,7 @@
 <script src="http://code.jquery.com/jquery-migrate-1.1.0.js"></script>
 <script src="js/bootstrap.js"></script>
 <script src="js/handlebars-v1.1.2.js"></script>
+<script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=BFd543d565fe3c25b197ceb35bf74267"></script>
 <script type="text/javascript" src="js/jquery.wysiwyg.js"></script>
 <script type="text/javascript" src="js/wysiwyg.image.js"></script>
 <script type="text/javascript" src="js/wysiwyg.link.js"></script>
